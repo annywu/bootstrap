@@ -3,7 +3,6 @@ body {
   min-height: 100%;
   font-family: "微软雅黑";
   background: #ffffff;
-  overflow-y:scroll;
 }
 /* 去除Chrome等浏览器文本框默认发光边框 */
 input:focus, textarea:focus {outline: none;}
@@ -104,6 +103,7 @@ img {
 @media screen and (max-width: 1200px) {
   .header .conter {
     width: 100%;
+    *width: 96%;
     padding: 0 3%;
     float: left;
   }
@@ -389,6 +389,7 @@ img {
 .search-box{
    position: absolute;
    width: 100%;
+   *width: 96%;
    padding: 0 3%;
    top: 100%;
    left: 0;
@@ -461,6 +462,7 @@ img {
 /****** 页脚 ******/
 .footer-bot {
   width: 100%;
+  *width: 96%;
   display: block;
   margin: 0 auto;
   overflow: hidden;
@@ -570,6 +572,7 @@ img {
 @media screen and (max-width: 1200px) {
   .nav-bottom{
    width: 100%;
+   *width: 96%;
    padding: 0 3%;
   }
 }
@@ -730,6 +733,7 @@ img {
 @media screen  and (max-width: 1200px) {
   .pc-location {
    width: 100%;
+   *width: 96%;
    padding: 0 3%;
   }
 }
@@ -845,6 +849,7 @@ img {
 @media screen  and (max-width: 1200px) {
   .main-conter{
    width: 100%;
+   *width: 96%;
    padding: 0 3%;
   }
 }
