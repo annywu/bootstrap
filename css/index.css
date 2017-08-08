@@ -91,8 +91,6 @@
 .banner1:hover .next{
 	display: block;
 }
-
-
 .banner4{
 	width:100%; 
 	position:relative;
@@ -157,9 +155,11 @@
 	padding: 0 13%;
 	padding-top: 1px;
 }
+
 @media screen and (max-width: 1200px){
 	.pdt-center {
 	    width: 100%;
+	    *width:94%;
 	    padding: 0 3%;
 	}
 	.title-box{
@@ -176,6 +176,7 @@
 .titles{
 	float: left;
 	width: 24%;
+
 	text-align: center;
 	line-height: 52px;
 	font-family: "华文细黑";
@@ -184,10 +185,13 @@
 	color: #999999;
 	font-size: 4.125em;
 	display: inline-block;
+	*float: left;
+	*padding-left:20%; 
 }
 
 .titles .name1{
 	display: inline-block;
+	*float: left;
 	line-height: 25px;
 	text-align: left;
 }
@@ -210,6 +214,7 @@
 
 	.titles{
 		width: 44%;
+		*width:43%;
 	}
 	.titles .name{
 		font-size: 3em;
@@ -320,6 +325,7 @@
 @media screen and (max-width: 1200px){
 	.video-center {
 	    width: 100%;
+	    *width:94%;
 	    padding: 33px 3% 45px 3%;
 	    margin-top: 33px;
 	}
@@ -425,6 +431,7 @@
 	.visual-center {
 	    width: 100%;
 	    padding: 0 3%;
+	    *width:94%;
 	}
 }
 
@@ -752,6 +759,7 @@
 @media screen and (max-width: 1200px){
 	.info-center {
 	    width: 100%;
+	    *width:94%;
 	    padding: 47px 3% 45px 3%;
 	    margin-top: 45px;
 	}
